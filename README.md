@@ -13,7 +13,7 @@ better way to accomplish what I am going for, but this seemed like a low
 resistance path to getting what I need for now.
 
 After executing the following commands, you should be able to view inex.html by
-navigating to localhost:8080 in thr brower.
+navigating to localhost:8080 in the browser.
 
 ```
 ## I'm assuming that you're running these commands from the repository root ##
