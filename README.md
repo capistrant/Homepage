@@ -1,2 +1,25 @@
 # Homepage
-Basic personal webpage
+My basic personal webpage.
+
+I wanted an excuse to do some basic static webpage design/development, and this
+seemeed like a logical project since I don't already have a personal page.
+
+# Running locally
+
+Simple setup to develop and view static pages locally. I'm using an Alpine
+httpd2 Docker image with a bind mount to the root of site in order to
+allow dynamic reflection of edits in the browser. I'm sure there is a
+better way to accomplish what I am going for, but this seemed like a low
+resistance path to getting what I need for now.
+
+After executing the following commands, you should be able to view inex.html by
+navigating to localhost:8080 in thr brower.
+
+```
+## I'm assuming that you're running these commands from the repository root ##
+docker build -t mySite:latest .
+docker run --rm --mount type=bind,source="$(pwd)"/root,target=/usr/local/apache2/htdocs --name mySite -p 8080:80 -dit mySite
+
+## When you want to stop the container ##
+docker stop mySite
+```
