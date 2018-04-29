@@ -17,9 +17,13 @@ navigating to localhost:8080 in the browser.
 
 ```
 ## I'm assuming that you're running these commands from the repository root ##
-docker build -t mySite:latest .
-docker run --rm --mount type=bind,source="$(pwd)"/root,target=/usr/local/apache2/htdocs --name mySite -p 8080:80 -dit mySite
+docker build -t mysite:latest .
+docker run --rm --mount type=bind,source="$(pwd)"/root,target=/usr/local/apache2/htdocs --name mySite -p 8080:80 -dit mysite:latest
 
 ## When you want to stop the container ##
 docker stop mySite
 ```
+
+# Misc
+
+* Favicon background color: `#0096ff`
