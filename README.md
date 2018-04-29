@@ -27,3 +27,5 @@ docker stop mySite
 # Misc
 
 * Favicon background color: `#0096ff`
+* Source for fadeing text on homepage: http://jsfiddle.net/jfriend00/n4mKw/
+* Bootstrap 4.1 docs: https://getbootstrap.com/docs/4.1/getting-started/introduction/
