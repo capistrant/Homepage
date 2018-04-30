@@ -4,6 +4,8 @@ My basic personal webpage.
 I wanted an excuse to do some basic static webpage design/development, and this
 seemeed like a logical project since I don't already have a personal page.
 
+Page is currently live at: ljcapistrant.us
+
 # Running locally
 
 Simple setup to develop and view static pages locally. I'm using an Alpine
