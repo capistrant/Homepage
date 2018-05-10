@@ -4,7 +4,7 @@ My basic personal webpage.
 I wanted an excuse to do some basic static webpage design/development, and this
 seemeed like a logical project since I don't already have a personal page.
 
-Page is currently live at: ljcapistrant.us
+Page is currently live at: [ljcapistrant.com](ljcapistrant.com)
 
 # Running locally
 
